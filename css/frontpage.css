@@ -1,0 +1,89 @@
+
+p{
+    font-family: nunito Sans;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 19.11px;
+}
+h1{
+    font-family: nunito Sans ;
+    font-style: normal;
+    line-height: 40.92px;
+    font-size: 30px;
+    font-weight: 800;
+}
+h2{
+    font-family: nunito Sans ;
+    font-style: normal;
+    font-weight: 800;
+    
+}
+.btn{
+
+    border-radius: 50px;
+    border: none;   
+    outline: none;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 19px;
+    border: 1px solid transparent;
+    
+}
+.btn:hover{
+    background-color: #07BFFF;
+    color: white;
+
+}
+
+
+.main_bike {
+    background-image: url(./image/ebike_img.png);
+    background-color: #F3F6FB;
+    padding: 30px 60px;
+    background-size: cover;
+    display: flex;
+    position: relative;
+  }
+  .lorem_title{
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 800;   
+    font-size: 48px;
+    line-height: 65px;  
+}
+.lorem_text{
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    padding: 19px 0px;
+    
+}
+.see_btn{
+    padding: 9px 26px ;
+}
+.see_btn_parent img{
+    padding: 0px 16px 0px 5px;
+}
+.left_side{
+    flex: 50%;
+    padding: 160px 100px 100px 160px;
+}
+.right_side{
+    flex: 50%;
+    padding-top: 60px;
+}
+.pagination_par{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+}
+.pagination{
+    align-items: center;
+}

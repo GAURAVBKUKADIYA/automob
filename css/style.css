@@ -1,0 +1,236 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* topbar */
+.img-moov{
+    margin-left: 50px;
+}
+.img-moov-1{
+    margin-right: 10px;
+}
+.btn-moov{
+    margin-right: 20px;
+}
+.navbar .navbar-nav .nav-link {
+    color: #000000;
+    font-size: 1.1em;
+    position: relative;
+    margin-left:"";
+  }
+  .navbar .navbar-nav .nav-link:hover {
+    color: #000000;
+  }
+  .navbar .navbar-nav .nav-link::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: #000000;
+    color: transparent;
+    width: 0%;
+    content: '.';
+    height: 3px;
+  }
+  .navbar .navbar-nav .nav-link:hover::after {
+    width: 100%;
+  }
+  /* topbar */
+
+  /* hero section */
+.hero{
+    background-image: url("../img/ebike_img.png");
+    margin-top: 20px; 
+    position: relative;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-color:#F3F6FB;
+overflow: hidden;
+}
+.texthead{
+    margin-left: 190px;
+}
+.text-head2{
+    margin-top: 180px;
+
+}
+
+/* mennu */
+.tool{
+padding: 10px;
+margin: 5px;
+}
+.form-control{
+    border-radius: 30px;
+}
+.btn-custom{
+    border-radius: 30px;
+    
+}
+.btn-moov-2{
+    margin-top: 30px;
+    padding: 10px;
+    background-color: rgb(154, 158, 158);
+    color: #000000;
+}
+.btn-custom:hover{
+    background-color: blue;
+color:#ffffff;
+}
+.myimg{
+  display: flex;
+  position: relative;
+  margin-left: 100px;
+  margin-top: 30px;
+}
+.img-moov-2{
+    margin-top: 120px;
+    margin-left: 35px;
+}
+/* product */
+.product{
+    margin-top: 50px;
+    margin-left: 115px;
+    border-left: 4px solid #07BFFF;
+}
+/* card4 */
+.btn-custom-2{
+    background-color: black;
+    color: #F3F6FB;
+    border-radius: 25px;
+    margin-top: 20px;
+}
+.btn-custom-2:hover{
+    background-color: blue;
+    color: #ffffff;
+}
+.btnimg1{
+    padding: 10px;
+    border-radius: 10px;
+}
+.btnimg{
+    background-color: blue;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+/* background 2 */
+.back{
+    background-image: url(../img/Bicycle_man.png); 
+    background-color: transparent;
+    background-color:#07BFFF;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: visible;
+    margin-top: 20px;
+}
+
+.text{
+    border-left: 7px solid #F3F6FB;
+    color: #F3F6FB;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 20px;
+    
+}
+
+.btn-custom3{
+    background:lightgray;
+    color:black;
+    border-radius: 25px;
+    padding:12px;
+    border: 2px solid black;
+    margin-top: 40px;
+}
+
+@media only screen and (max-width:426px)
+{
+    .btn-custom-2
+    {
+        width: 100%;
+    }
+}
+.custom-line:hover{
+border: 2px solid white;
+}
+.custom-line-2{
+    background-color: #F3F6FB;
+    padding: 15px;
+    border: 2px solid white;
+    margin-top: 20px;
+}
+.custom-line-2:hover{
+    border: 2px solid blue;
+    border-radius: 20px;
+}
+.customimg-4{
+    background-color:gray;
+    padding: 30px;
+}
+.custom-txt{
+    margin-left: -40px;
+}
+.dollar:hover{
+    color: blue;
+
+}
+
+/* heading3 */
+.head3{
+    background-color: #000000;
+}
+.head-3-custom{
+    background-color: #07BFFF;
+}
+/* heading 3 */
+.main-head-3{
+background-color:lightgrey;
+margin-top: 30px;
+}
+/* head 5 */
+.head-5{
+    margin-left: 50px;
+   
+}
+.head_5_custom{
+margin-left: -40px;
+}
+.head_5_custom_1{
+    margin-left: 40px;
+}
+.head_5_decore{
+    border: 5px solid white;
+    background-color: #F3F6FB;
+
+}
+.bikebtn{
+    padding: 10px;
+    border-radius: 35px;
+    background-color: #000000;
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+.bikebtn:hover{
+    background-color: #F3F6FB;
+    color: #000000;
+    font-size: 15px;
+}
+.finalpage{
+    margin-left: 200px;
+    margin-top: 25px;
+}
+.final_pagetext{
+    margin-right: 10px;
+    color:blue;
+    margin-top: 25px;
+}
+.final_pagetext:hover{
+    color: red;
+}

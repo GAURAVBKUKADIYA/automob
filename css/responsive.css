@@ -1,0 +1,28 @@
+@media (max-width:1400px){
+    .top_option{
+        display: inline;
+    }
+    .search_field_parent{
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 20px;
+    }
+}
+@media (max-width:950px) {
+  .top_option{
+        display: inline;
+    }
+    .search_field_parent{
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 20px;
+    }   
+}
+
+@media (max-width:768px){
+
+}
+
+@media (max-width:576px{
+
+})

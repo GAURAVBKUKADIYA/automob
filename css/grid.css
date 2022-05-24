@@ -1,0 +1,230 @@
+.cotaint p{
+    font-weight: 700;
+    font-style: normal;
+    font-size: 17px;
+    line-height: 23.19px;
+
+} 
+.cotaint small{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19.11px;
+}
+
+/* Style Guide */
+.vertical_card p{
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 23px;
+    color: black;
+}
+
+.vertical_card small{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19.11px;
+    color: #8392A5  ;
+}
+.container_bike{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.topbar{
+    position: relative;
+    width:  1158px;
+    margin-top: 100px;
+}
+.topbar h2{
+    font-weight: 800;
+    margin-left: 5px;
+}
+.topbar p{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.first{
+    position: absolute;
+    margin-top: 30px;
+    padding: 11px 25px;
+    align-items: center;
+    background-color: transparent;
+    color: black;
+    border: 1px solid #07BFFF;
+}
+.brand{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 11px 33px;
+    align-items: center;
+    background-color: transparent;
+    color: black;
+    border: 1px solid #07BFFF;
+}
+.brand span{
+    font-size: 15px;
+}
+.text_par{
+    padding-right:100px;
+    border-left: 4px solid #07BFFF;
+}
+
+.grid{
+    width: calc(25% - 15px  );
+}
+
+.moto_img{
+    max-width: 100%;
+    background: #F3F6FB;
+    padding: 43px 45px 55px 42px;
+
+}
+
+.cotaint{
+    margin-top: 56px;
+    display: flex;
+    justify-content: center;
+    width: 1142px;
+}
+
+.motor_text{
+    margin-top: 14px;
+    text-align: center;
+}
+.motor_small{
+    display: flex;
+    justify-content: center;
+}
+.card_btn_parent{
+    display: flex;
+    justify-content: center;
+
+    margin-top: 20px;
+}
+.card_btn{
+    color: #07BFFF;
+    padding: 10px 35px; 
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid;
+    font-size: 14px;
+}
+.slider_btn_par{
+    margin-top: 70px;
+
+}
+.slider_btn{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border: 1px solid #07BFFF;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 13px 16px;
+}
+.next{
+    background-color: #07BFFF;
+}
+.container_bike-vertical{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.with,.without{
+    margin-top: 60px;
+}
+
+/* 3 for set old and new ------- */
+.container_bike-vertical .topbar{
+    margin-top: 0px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.container_bike-vertical .brand{
+    background-color: white;
+}
+.container_bike-vertical .brand:hover{
+    background-color: #07BFFF;
+}
+
+.container_bike-vertical .text_par{
+    border-color: white;
+    
+}   
+.last{
+    margin-bottom: 99px;
+}
+/*  ---------------------------*/
+
+
+.cotaint-vertical{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 20px rgba(54, 53, 51, 0.03);
+    
+}
+.cotaint-vertical:hover .bike_img_text p:last-child{
+    color: #07BFFF;
+}
+.bike_img_div{
+    padding: 33px 40px;
+    background: #F3F6FB;
+    margin: 10px;
+}
+.bike_img_box{
+   max-width: 135px;
+   max-height: 93px;
+}
+.bike_img{
+    max-width: 100%;
+    
+}
+.bike_img_text{
+    max-width: 568px;
+    margin: 40px 103px 40px 35px;
+}
+
+.bike_btn_box{
+    align-self: center;
+    padding: 0px 41px 0px 0px;
+}
+.bike_img_btn{
+    background-color: black;
+    color: #07BFFF;
+    padding: 10px 25px;
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid;
+    font-size: 14px;
+}
+.bike_img_btn:hover{
+    background-color: #07BFFF;
+    color: white;
+}
+.with{
+    background-image: url(./image/Bicycle_man.png);
+    background-color: #07BFFF;
+}
+.black{
+    color: black;
+}
+.blue{
+    border-color: #07BFFF !important;
+}
+.vertical_card  .cotaint-vertical{
+    border: 1px solid transparent;
+}
+
+
+.vertical_card  .cotaint-vertical:hover {
+    border: 1px solid #07BFFF;
+}
+.niche{
+    height: 500px;
+}
